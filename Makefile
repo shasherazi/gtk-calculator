@@ -8,7 +8,7 @@ LDFLAGS = `pkg-config --libs gtk4`
 # Source files and output executable
 SRC = main.c calculator.c
 OBJ = $(SRC:.c=.o)
-EXEC = my_gtk4_app
+EXEC = calculator
 
 # Bear commands
 BEAR = bear --
